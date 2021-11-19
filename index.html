@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Investimento</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+    
+  <div class="form">
+    <div class="title">Simulador de Investimento</div>
+    <div class="subtitle">Preencha todos os campos!</div>
+    <div class="input-container ic1">
+      <input id="nome" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="mome" class="placeholder">Nome</label>
+    </div>
+    <div class="input-container ic1">
+      <input id="valorAplicado" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="valorAplicado" class="placeholder">Valor Aplicado</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="juros" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="juros" class="placeholder">Juros Cobrado</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="tempoInvestimento" class="input" type="number" step="any" placeholder=" " />
+      <div class="cut"></div>
+      <label for="tempoInvestimento" class="placeholder">Tempo de Investimento</label>
+    </div>
+    <button class="submit" id="calcular">Calcular</button>
+    <br><br>
+    <div class="subtitle" id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
